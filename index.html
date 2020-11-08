@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head id="Alpha">
+	<title>animacion</title>
+</head>
+<body class="col">
+<link rel="stylesheet" href="css.css">
+<center><h1 class="x" id="x">A C T I V I D A D</h1></center>
+
+<center><div class="a" id="a1">¡¡¡Bienvenidos a mi cuento interactivo!!!</div></center>
+<a href="https://tian34.github.io/Interfaz/"><center><button class="c" id="c">Siguiente</button></center></a>
+<center><button class="d" id="d" onclick="a2()">Personajes</button></center>
+<div class="b" id="a">
+	<div class="e1">
+		<img src="A2.gif" class="e1a" id="A" onclick="FA()">
+		<img src="A1.gif" class="NONE" id="A2">
+		<div class="aa">Stiven, fue arrestado por asesinato a los 18 años y ahora que escapó busca tener una vida fácil.</div>
+	</div>
+	<div class="e2">
+		<img src="E2.gif" class="e1a" id="E" onclick="FE()">
+		<img src="E1.gif" class="NONE" id="E2">
+		<div class="bb">Fernando, El padre de Miguel, es un hombre recto y justo de 45 años, es alguien muy trabajador pero en el día de la historia decide tomarse un descanso</div>
+	</div>
+	<div class="e3">
+		<img src="D2.gif" class="e1a" id="D" onclick="FD()">
+		<img src="D1.gif" class="NONE" id="D2">
+		<div class="cc">Miguel, un chico amable y obediente de 10 años, sale con sus amigos seguido y es el protagonista de la historia</div>
+	</div>
+	<div class="e4">
+		<img src="B2.gif" class="e1a" id="B" onclick="FB()"><img src="Boton.png" class="f" onclick="b()">
+		<img src="B1.gif" class="NONE" id="B2">
+		<div class="dd">Pablo, amigo de Miguel y de 9 años, es un chico extrovertido y de calle, le gusta jugar todo el tiempo y no es muy ateto en la escuela</div>
+	</div>
+	<div class="e5">
+		<img src="C2.gif" class="e1a" id="C" onclick="FC()">
+		<img src="C1.gif" class="NONE" id="C2">
+		<div class="ee">Samuel, amigo de Miguel y de 10 años, es un chico muy inteligente, le gusta el deporte pero no practicarlo</div>
+	</div>
+	<div class="e6">
+		<img src="F2.gif" class="e1a" id="F" onclick="FF()">
+		<img src="F1.gif" class="NONE" id="F2">
+		<div class="ff">Gabriel, una persona confiable de 20 años que solo intenta proteger a los inocentes de todo mal que aseche la ciudad</div>
+	</div>
+</div>
+<script type="text/javascript">
+	var a = document.getElementById("a");
+	var x = document.getElementById("x");
+	var a1 = document.getElementById("a1");
+	var d = document.getElementById("d");
+	var c = document.getElementById("c");
+
+	function a2() {
+		a.className = "e";
+	}
+	function b() {
+		a.className = "b";
+	}
+		function FA() {
+		var a = document.getElementById("A");
+		var a2 = document.getElementById("A2");
+		a.className = "NONE";
+		a2.className = "e1a";
+		setTimeout(FA2, 5000);
+	}
+	function FA2() {
+		var a = document.getElementById("A");
+		var a2 = document.getElementById("A2");
+		a.className = "e1a";
+		a2.className = "NONE";
+	}
+	function FB() {
+		var a = document.getElementById("B");
+		var a2 = document.getElementById("B2");
+		a.className = "NONE";
+		a2.className = "e1a";
+		setTimeout(FB2, 5000);
+	}
+	function FB2() {
+		var a = document.getElementById("B");
+		var a2 = document.getElementById("B2");
+		a.className = "e1a";
+		a2.className = "NONE";
+	}
+	function FC() {
+		var a = document.getElementById("C");
+		var a2 = document.getElementById("C2");
+		a.className = "NONE";
+		a2.className = "e1a";
+		setTimeout(FC2, 4000);
+	}
+	function FC2() {
+		var a = document.getElementById("C");
+		var a2 = document.getElementById("C2");
+		a.className = "e1a";
+		a2.className = "NONE";
+	}
+	function FD() {
+		var a = document.getElementById("D");
+		var a2 = document.getElementById("D2");
+		a.className = "NONE";
+		a2.className = "e1a";
+		setTimeout(FD2, 5000);
+	}
+	function FD2() {
+		var a = document.getElementById("D");
+		var a2 = document.getElementById("D2");
+		a.className = "e1a";
+		a2.className = "NONE";
+	}
+	function FE() {
+		var a = document.getElementById("E");
+		var a2 = document.getElementById("E2");
+		a.className = "NONE";
+		a2.className = "e1a";
+		setTimeout(FE2, 5000);
+	}
+	function FE2() {
+		var a = document.getElementById("E");
+		var a2 = document.getElementById("E2");
+		a.className = "e1a";
+		a2.className = "NONE";
+	}
+	function FF() {
+		var a = document.getElementById("F");
+		var a2 = document.getElementById("F2");
+		a.className = "NONE";
+		a2.className = "e1a";
+		setTimeout(FF2, 5000);
+	}
+	function FF2() {
+		var a = document.getElementById("F");
+		var a2 = document.getElementById("F2");
+		a.className = "e1a";
+		a2.className = "NONE";
+	}
+</script>
